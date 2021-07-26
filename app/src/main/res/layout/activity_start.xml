@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+
+  <Button
+      android:id="@+id/startreg"
+      android:layout_width="205dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:background="@color/cardview_light_background"
+      android:textColor="@color/black"
+      android:textStyle="bold"
+      android:text="NEED A NEW ACCOUNT ?"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      android:padding="12dp"
+
+      app:layout_constraintTop_toBottomOf="@+id/startlog" />
+
+  <Button
+      android:id="@+id/startlog"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="44dp"
+      android:text="Already have Account ?"
+      android:textStyle="bold"
+
+      android:background="@color/black"
+      android:padding="12dp"
+      android:textColor="@color/cardview_light_background"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="384dp"
+      android:text="Welcome to Hush"
+      android:textColor="@color/cardview_light_background"
+      android:textSize="24sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="167dp"
+      android:layout_height="107dp"
+      android:src="@drawable/icon2"
+      app:layout_constraintBottom_toTopOf="@+id/textView2"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.862" />
+</androidx.constraintlayout.widget.ConstraintLayout>

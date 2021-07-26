@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1034187053960",
+    "project_id": "hush-new",
+    "storage_bucket": "hush-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034187053960:android:23298fdaf2da147ef9f83d",
+        "android_client_info": {
+          "package_name": "com.example.hushnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034187053960-d5aecaaghaa1750kialhfvdjc5vn4h3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK5DMMyhRMbmIV5BywmBf95kxfp49jMOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034187053960-d5aecaaghaa1750kialhfvdjc5vn4h3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+
+    tools:context="com.example.hushnew.ProfileActivity">
+
+    <ImageView
+        android:id="@+id/userprofimg"
+        android:layout_width="match_parent"
+        android:layout_height="291dp"
+        android:src="@drawable/avatar"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/userdisname"
+        android:layout_width="wrap_content"
+        android:layout_height="32sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:text="Display Name"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/userstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="22sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:text="Current Status"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp" />
+
+
+    <Button
+        android:id="@+id/rqstbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+     android:textColor="@color/white"
+        android:elevation="10dp"
+        android:padding="10dp"
+
+
+        android:background="@drawable/message_text_background"
+        android:freezesText="true"
+        android:text="SEND FRiend Request" />
+
+
+    <Button
+        android:id="@+id/dectbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#E64A19"
+        android:freezesText="true"
+        android:visibility="gone"
+        android:text="Decline FRiend Request" />
+
+
+</RelativeLayout>
